@@ -1,0 +1,208 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+a {
+    text-decoration: none;
+}
+
+.background-index {
+    background: url(./imgs/livrofundo.jpg) #293162 fixed;
+    color: #FFFFFF;
+}
+
+.background-texto {
+    background: url(./imgs/folhassecas2.jpg) #D5E6FF fixed;
+    color: #000080;
+}
+
+.background-index a{color: #FFFFFF;}
+.background-texto a{color: #000080;}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    font-size: 1.3em;
+    font-weight: 900;
+    width: 60vh;
+}
+
+.cabecalho a {
+    margin: 0 20px;
+}
+
+.cabecalho span {
+    font-weight: 100;
+}
+
+.cabecalho a:hover {
+    color: #4F4F4F;
+}
+
+#linha-separacao {
+    display: block;
+    margin: auto;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+    height: 75vh;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 700;
+    margin: -60px 0 20px 0;
+}
+
+/*INDEX*/
+.conteudo-lateral {
+    order: 1;
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.conteudo-lateral-fernando {
+    margin-left: 0px;
+}
+
+.conteudo-lateral-carlos {
+    margin-left: 60px
+}
+
+.conteudo-lateral-leitor {
+    margin-left: 120px
+}
+
+.conteudo-lateral-indice {
+    margin-left: 180px;
+}
+
+.conteudo-lateral-fernando h1,
+.conteudo-lateral-carlos h1,
+.conteudo-lateral-leitor h1,
+.conteudo-lateral-indice h1 {
+    margin-bottom: 5px;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.conteudo-lateral-fernando a,
+.conteudo-lateral-carlos a,
+.conteudo-lateral-leitor a,
+.conteudo-lateral-indice a {
+    margin-left: 50px;
+    font-size: 1em;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.conteudo-capa {
+    order: 0;
+    width: 44%;
+    text-align: center;
+}
+
+/*INDICE*/
+.conteudo-indice {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 75vh;
+}
+ul {list-style: none;font-weight: 600;}
+ul a {text-decoration: underline;}
+ul a:hover {color: #4F4F4F;}
+
+.conteudo-lateral2 span {text-decoration: line-through;}
+
+/*TEXTOS*/
+.conteudo-textos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.rodape {
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.7em;
+    font-weight: 800;
+}
+
+.rodape-textos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.8em;
+    font-weight: 600;
+    text-align: center;
+}
+.rodape-capa{margin-top: 30px;}
+.rodape-reg{margin-top: 30px;font-weight: 800;font-size: 0.7em;}
+
+.voltar {
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+/*AGRADECIMENTOS*/
+.conteudo-agradecimentos {
+    width: 90%;
+    margin: auto;
+    background: url(./imgs/folhassecas2.jpg) #D5E6FF fixed;
+    color: #000080;
+}
+.titulo-agradecimentos {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.4em;
+}
+.titulo-agradecimentos-span{font-size: 0.7em;}
+
+.texto-agradecimentos{
+    font-weight: 500;
+    text-align: center;
+}
+
+.texto-agradecimentos p {margin-bottom: 20px;}
+.texto-agradecimentos p span{font-size: 1.4em;font-weight: 700;}
+
+.final-texto-agradecimentos {
+    margin-top: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+.final-texto-agradecimentos p{font-size: 1.2em;margin-top: 15px;}
+
+.rodape-agradecimentos{
+    text-align: center;
+}
+
+.voltar-agradecimentos {
+    position: fixed;
+    bottom: 70px;
+    right: 250px;
+}
+.voltar-agradecimentos a{color: #000080;text-decoration: underline;font-weight: 600;font-size: 1.1em;}

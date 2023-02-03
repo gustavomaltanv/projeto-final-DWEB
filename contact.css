@@ -1,0 +1,33 @@
+.conteudo-contato {
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.conteudo-contato-form {
+    margin: 40px 0;
+    background: rgba(255, 255, 255, 0.05)
+}
+
+.conteudo-contato-label {
+    display: block;
+    margin: 8px auto;
+    width: 50%;
+}
+
+.entrada,
+.conteudo-contato-form textarea {
+    display: block;
+    margin: 0 auto 25px;
+    padding: 4px 9px;
+    font-size: 18px;
+    width: 50%;
+    box-sizing: border-box;
+    resize: none;
+    overflow: auto;
+}
+
+#checkbox,
+.div-entrada {
+    margin: 30px auto;
+}

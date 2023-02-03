@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contatos - Letras &amp; Poemas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <script src="./script.js"></script>
+</head>
+
+<body class="background-index">
+
+    <nav class="cabecalho">
+        <a href="./index.html" id="cabecalho-link">Home</a> <span>|</span>
+        <a href="./indice.html" id="cabecalho-link">Índice</a> <span>|</span>
+        <a href="./contato.html" id="cabecalho-link">Contato</a>
+    </nav>
+
+    <img id="linha-separacao" src="./imgs/bar20.gif" alt="-" width="80%" height="12px">
+
+    <main class="conteudo-contato">
+        <form class="conteudo-contato-form">
+            <hr>
+            <label class="conteudo-contato-label" for="nome">Nome Completo</label>
+            <input class="entrada" type="text" name="" id="nome" placeholder="Nome Completo" required onblur="maiusculo()">
+
+            <label class="conteudo-contato-label" for="email">Email</label>
+            <input class="entrada" type="email" name="" id="email" placeholder="@mail.com" required onblur="validacaoEmail()">
+
+            <label class="conteudo-contato-label" for="tele">Número para contato</label>
+            <input class="entrada" type="tel" name="" id="tele" placeholder="(99)99999-9999" required onblur="validacaoTel()">
+
+            <label class="conteudo-contato-label" for="mensag">Deixe aqui sua mensagem</label>
+            <textarea class="entrada" name="" id="mensag" cols="15" rows="10"></textarea>
+
+            <div class="div-entrada">
+                <p class="conteudo-contato-label"> Como prefere nosso contato?</p>
+                <label class="conteudo-contato-label" for="p-email"><input type="radio" name="preferencia-contato"
+                        id="p-email" required>Email</label>
+
+                <label class="conteudo-contato-label" for="p-tele"><input type="radio" name="preferencia-contato"
+                        id="p-tele">Telefone</label>
+
+                <label class="conteudo-contato-label" for="p-whatsapp" lang="en"><input type="radio"
+                        name="preferencia-contato" id="p-whatsapp">Whatsapp</label>
+            </div>
+
+            <label for="newsletter-email" class="conteudo-contato-label" id="checkbox">Gostaria de receber nossas
+                novidades por email?
+                <input type="checkbox" name="" id="newsletter-email"></label>
+
+            <input class="entrada" type="submit" value="Enviar" id="botao-enviar">
+            <hr>
+        </form>
+    </main>
+
+    <footer class="rodape">
+        <img id="linha-separacao" src="./imgs/bar20.gif" alt="-" width="80%" height="12px">
+        <p>No Registro : 326.595 - Livro : 598 - Folha 255<br>
+            Protocolo : 2004RJ_8388<br>
+            Escritório de Direitos Autorais<br>
+            Biblioteca Nacional-RJ
+        </p>
+        <p>Email: <a href="mailto:mtneves@jf.directlink.com.br">mtneves@jf.directlink.com.br</a></p>
+    </footer>
+</body>
+
+</html>
